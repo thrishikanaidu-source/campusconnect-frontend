@@ -1,7 +1,7 @@
 # CampusConnect: Frontend
 
 React frontend for **CampusConnect**, a Student Attendance and Result Management Portal.
-Backend repo: https://github.com/YOUR-USERNAME/campusconnect-backend
+Backend repo: https://github.com/thrishikanaidu-source/campusconnect-backend
 
 ## Tech stack
 - React (Vite)
@@ -29,4 +29,4 @@ Backend repo: https://github.com/YOUR-USERNAME/campusconnect-backend
 - Password: `admin123`
 
 ## Author
-Your Name
+Thrishika
