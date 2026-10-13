@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import axios from 'axios'
 
+const API = import.meta.env.VITE_API_URL || 'http://localhost:8080'
 export default function CreateLogin() {
   const [username, setUsername] = useState('')
   const [password, setPassword] = useState('')
@@ -12,7 +13,7 @@ export default function CreateLogin() {
     e.preventDefault()
     setMessage('')
     try {
-      await axios.post('http://localhost:8080/api/auth/register', {
+      await axios.post(`${API}/api/auth/register`, {
         username,
         password,
         role,
